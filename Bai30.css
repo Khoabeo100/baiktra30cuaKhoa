@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -16,7 +18,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     z-index: 100;
-    background-color: rgba(218, 172, 0, 0.7);
+    background-color: rgba(218, 172, 0, 0.8);
     
 }
 h2{
@@ -256,8 +258,8 @@ h2{
 .hop6-img{
     width: 100%;
     height: 550px;
-    background-image: url(tainghecho.png);
-    opacity: 82%;
+    background-image: url(IMG/Layer\ 21.png);
+    opacity: 90%;
 }
 .icon-hop6{
     display: flex;
@@ -270,16 +272,18 @@ h2{
     font-size: 150%;
     color: white;
 }
-.sp1{
-    text-align: center;
-    background-color: white;
-}
+
 .sp1 h1{
     font-size: 55px;
     margin: 30px;
+    text-align: center;
+        
 }
 .sp1 p{
     font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+   
 }
 .sp2{
     display: flex;
@@ -289,25 +293,35 @@ h2{
 .anh{
     background-color: rgb(247, 243, 243);
     width: 500px;
-    height: 600px;
-    text-align: center;
+    height: 700px;
+    /* text-align: center; */
     gap: 10px;
     margin: 20px;
     padding: 10px;
     border: 1px  solid rgb(217, 214, 214);
 }
-.cm1 h1{
-    font-size: 22px;
+
+.cm1{
+    margin-left: 25px;
+    margin-right: 25px;
 }
-.cm1 a{
+.cm1 h3{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.cm1 a1{
     font-size: 15px;
     text-decoration: none;
     color: aqua;
 }
+.cm1 p1{
+    margin-top: 30px;
+}
 .cm2{
-    font-size: 17px;
-    margin: 10px;
+    font-size: 25px;
     color: aqua;
+    margin-top: 20px;
+
 }
 .company-container-1{
     width: 100%;
@@ -526,20 +540,16 @@ footer{
     padding: 20px;
     color: white;
 }
-.icon-footer{
-    display: flex;
-    padding-top: 15px;
-    gap: 20px;
-    justify-content: end;
+
+.id-footer{
+    padding-bottom: 100px;
 }
 .id-footer h2{
     text-align: end;
+    margin: 0px 0px 0px 100px;
+    /* border: 1px solid white; */
 }
-.footer_link{
-    background-color: white;
-    border-radius: 50%;
-    padding: 5px;
-}
+
 li {
     list-style: none;
 }
@@ -587,3 +597,100 @@ a{
     color: #fc8b02;
     text-decoration: underline;
 }
+
+.Buy1{
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 90px;
+    background-color: #00bec9;
+    color: white;
+}
+.Buy1:hover {
+    background-color: #e21145;
+}
+
+.Buy2{
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 90px;
+    background-color: #00bec9;
+    color: white;
+}
+
+.Buy2:hover {
+    background-color: #e21145;
+}
+
+.Buy3{
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 90px;
+    background-color: #00bec9;
+    color: white;
+}
+
+.Buy3:hover {
+    background-color: #e21145;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 50px;
+    /* border: 1px solid white; */
+  }
+  
+  .child {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .child:hover {
+    background-color: rgb(243, 241, 241);
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+    transform: perspective(180px) rotateX(60deg) translateY(2px);
+    box-shadow: 0px 10px 10px rgb(216, 202, 12);
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+    border-radius: 50%;
+  }
+
+
+

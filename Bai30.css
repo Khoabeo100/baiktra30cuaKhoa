@@ -111,6 +111,13 @@ h2{
     width: 30%;
  }
 
+ .col2 p:hover{
+    color: #faeb1d;
+    
+ }
+.col2:hover{
+    background-color: #e21145;
+}
  .coltong{
     float: left;
     width: 50%;
@@ -321,7 +328,9 @@ h2{
     font-size: 25px;
     color: aqua;
     margin-top: 20px;
-
+}
+.cm2:hover{
+    color: #fc8b02;
 }
 .company-container-1{
     width: 100%;
@@ -542,12 +551,15 @@ footer{
 }
 
 .id-footer{
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 .id-footer h2{
     text-align: end;
     margin: 0px 0px 0px 100px;
     /* border: 1px solid white; */
+}
+.id-footer p{
+    text-align: end;
 }
 
 li {
@@ -575,7 +587,7 @@ a{
   background-color: #fcc302;
   caret-color: #f7f7f8;
   color: #000000;
-  padding: 7px 15px;
+  padding: 7px 40px;
   margin-right: 1px;
   transition: all .2s ease;
 }
